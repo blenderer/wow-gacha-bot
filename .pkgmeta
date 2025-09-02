@@ -17,6 +17,8 @@ license-output: LICENSE
 ignore:
   - "README.md"
   - "SETUP.md"
+  - "build-and-link.sh"
+  - "setup-symlink.sh"
   - ".git*"
   - ".github/"
   - ".release/"

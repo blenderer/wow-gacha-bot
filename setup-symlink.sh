@@ -4,12 +4,12 @@
 # This script creates a symlink from the built addon to your WoW Classic AddOns directory
 
 # Default WoW installation path (adjust if different)
-WOW_PATH="/c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WowGachaBot"
+WOW_PATH="/c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WowGachaBot"
 
 # Check if WoW path exists
-if [ ! -d "/c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns" ]; then
-    echo "❌ WoW Classic AddOns directory not found at:"
-    echo "   /c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns"
+if [ ! -d "/c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns" ]; then
+    echo "❌ WoW Classic Era AddOns directory not found at:"
+    echo "   /c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns"
     echo ""
     echo "Please update the WOW_PATH variable in this script with your WoW installation path."
     exit 1

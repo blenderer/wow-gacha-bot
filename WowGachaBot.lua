@@ -23,10 +23,10 @@ end
 -- Main function to handle the !open command
 local function handleOpenCommand()
     debug("Handling !open command")
-    
+
     -- Send "hello world" message to chat
-    SendChatMessage("Hello World!", "PARTY")
-    
+    SendChatMessage("Hello World!", "SAY")
+
     -- Also print to chat frame for confirmation
     print("[" .. addonName .. "] Hello World!")
 end
@@ -36,10 +36,10 @@ local function OnEvent(self, event, ...)
     if not config.enabled then
         return
     end
-    
-    if event == "CHAT_MSG_PARTY" or event == "CHAT_MSG_PARTY_LEADER" then
+    if event == "CHAT_MSG_PARTY" or event == "CHAT_MSG_PARTY_LEADER" or event == "CHAT_MSG_SAY" then
         local message, sender = ...
-        
+
+
         -- Check if the message is "!open" (case insensitive)
         if message and string.lower(string.trim(message)) == "!open" then
             debug("Detected !open command from " .. (sender or "unknown"))
@@ -50,15 +50,16 @@ end
 
 -- Initialize the addon
 local function InitializeAddon()
-    debug("Initializing " .. addonName)
-    
+    print("Initializing " .. addonName)
+
     -- Register events
     WowGachaBot:RegisterEvent("CHAT_MSG_PARTY")
     WowGachaBot:RegisterEvent("CHAT_MSG_PARTY_LEADER")
-    
+    WowGachaBot:RegisterEvent("CHAT_MSG_SAY")
+
     -- Set event handler
     WowGachaBot:SetScript("OnEvent", OnEvent)
-    
+
     -- Print initialization message
     print("[" .. addonName .. "] Loaded successfully! Type !open in party chat to test.")
 end
@@ -69,7 +70,7 @@ SLASH_WOWGACHABOT2 = "/wowgachabot"
 
 SlashCmdList["WOWGACHABOT"] = function(msg)
     local command = string.lower(string.trim(msg))
-    
+
     if command == "toggle" then
         config.enabled = not config.enabled
         print("[" .. addonName .. "] " .. (config.enabled and "Enabled" or "Disabled"))

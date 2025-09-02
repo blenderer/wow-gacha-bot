@@ -57,11 +57,11 @@ git commit -m "Initial commit: Wow Gacha Bot addon"
 **Manual setup**:
 
 ```bash
-# Windows (Git Bash)
-ln -s "$(pwd)/.release/WowGachaBot" "/c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WowGachaBot"
+# Windows (Git Bash) - WoW Classic Era/Anniversary
+ln -s "$(pwd)/.release/WowGachaBot" "/c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WowGachaBot"
 
 # Or if your WoW is in a different location:
-ln -s "$(pwd)/.release/WowGachaBot" "/path/to/your/WoW/_classic_/Interface/AddOns/WowGachaBot"
+ln -s "$(pwd)/.release/WowGachaBot" "/path/to/your/WoW/_classic_era_/Interface/AddOns/WowGachaBot"
 ```
 
 **Benefits**:
@@ -119,14 +119,62 @@ The `release.sh` script supports several options:
 
 The built addon will be available in the `.release/WowGachaBot/` directory.
 
+### Quick Build + Link Script
+
+For the fastest development workflow, use the provided `build-and-link.sh` script:
+
+```bash
+./build-and-link.sh
+```
+
+This script will:
+
+1. ✅ Build the addon using the WoW Packager
+2. ✅ Automatically update the symlink to point to the new build
+3. ✅ Provide colored output and status messages
+4. ✅ Handle errors gracefully
+
+**Benefits**:
+
+- **One command** does everything
+- **Automatic symlink updates** - no manual copying
+- **Error handling** - stops if build fails
+- **Colored output** - easy to see what's happening
+
 ## Development Workflow
 
 ### Quick Development Cycle
 
+#### Option A: Automated Build + Link (Recommended)
+
 1. **Set up symlink once** (if using Option A above):
 
    ```bash
-   ln -s "$(pwd)/.release/WowGachaBot" "/c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WowGachaBot"
+   ln -s "$(pwd)/.release/WowGachaBot" "/c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WowGachaBot"
+   ```
+
+2. **Make changes** to your addon files (`.lua`, `.toc`, `.xml`)
+
+3. **Build and update symlink** with one command:
+
+   ```bash
+   ./build-and-link.sh
+   ```
+
+4. **Reload in-game**:
+
+   ```
+   /reload
+   ```
+
+5. **Test** your changes
+
+#### Option B: Manual Build + Link
+
+1. **Set up symlink once** (if using Option A above):
+
+   ```bash
+   ln -s "$(pwd)/.release/WowGachaBot" "/c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WowGachaBot"
    ```
 
 2. **Make changes** to your addon files (`.lua`, `.toc`, `.xml`)
@@ -235,8 +283,8 @@ git commit -m "Initial commit"
 **Solution**: Remove the existing symlink first:
 
 ```bash
-rm "/c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WowGachaBot"
-ln -s "$(pwd)/.release/WowGachaBot" "/c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WowGachaBot"
+rm "/c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WowGachaBot"
+ln -s "$(pwd)/.release/WowGachaBot" "/c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WowGachaBot"
 ```
 
 **Problem**: "ln: failed to create symbolic link: Permission denied"
@@ -248,5 +296,5 @@ ln -s "$(pwd)/.release/WowGachaBot" "/c/Program Files (x86)/World of Warcraft/_c
 **Solution**: Make sure the symlink path is correct and the addon files exist:
 
 ```bash
-ls -la "/c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WowGachaBot"
+ls -la "/c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WowGachaBot"
 ```
