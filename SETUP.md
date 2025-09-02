@@ -35,7 +35,42 @@ For automated releases, add these secrets to your GitHub repository:
 - `WOWINTERFACE_ADDON_ID` - Your WoWInterface addon ID (if uploading to WoWInterface)
 - `WAGO_PROJECT_ID` - Your Wago project ID (if uploading to Wago)
 
-### 3. Local Testing
+### 3. Initial Git Setup
+
+**Important**: The WoW Packager requires at least one Git commit to work properly. If you're starting fresh:
+
+```bash
+git add .
+git commit -m "Initial commit: Wow Gacha Bot addon"
+```
+
+### 4. Local Testing
+
+#### Option A: Symlink (Recommended for Development)
+
+**Quick setup** using the provided script:
+
+```bash
+./setup-symlink.sh
+```
+
+**Manual setup**:
+
+```bash
+# Windows (Git Bash)
+ln -s "$(pwd)/.release/WowGachaBot" "/c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WowGachaBot"
+
+# Or if your WoW is in a different location:
+ln -s "$(pwd)/.release/WowGachaBot" "/path/to/your/WoW/_classic_/Interface/AddOns/WowGachaBot"
+```
+
+**Benefits**:
+
+- Automatically reflects changes when you rebuild
+- No need to manually copy files
+- Tests the exact same files that will be distributed
+
+#### Option B: Manual Copy
 
 1. Copy the addon files to your WoW Classic AddOns directory:
 
@@ -48,7 +83,7 @@ For automated releases, add these secrets to your GitHub repository:
    - Type `/wgb test` to test the !open functionality
    - Join a party and type `!open` to test the party chat detection
 
-### 4. Building Locally
+### 5. Building Locally
 
 To build the addon locally using the WoW Packager:
 
@@ -69,15 +104,58 @@ To build the addon locally using the WoW Packager:
 
 The `release.sh` script supports several options:
 
-- `./release.sh` - Build and upload to all configured sites
-- `./release.sh -d` - Build only (skip uploading)
-- `./release.sh -z` - Build and create zip file only
-- `./release.sh -d -z` - Build and create zip file, skip uploading
+- `./release.sh -d -z` - **Build only** (recommended for testing)
+- `./release.sh -d` - Build and create zip file (requires zip command)
+- `./release.sh` - Build and upload to all configured sites (requires API keys)
 - `./release.sh -p 1234` - Upload to CurseForge with project ID 1234
 - `./release.sh -w 5678` - Upload to WoWInterface with addon ID 5678
 - `./release.sh -a he54k6bL` - Upload to Wago with project ID he54k6bL
 
-The built addon will be available as a zip file in the `.release` directory.
+**Note**: The script creates separate TOC files for each game version:
+
+- `WowGachaBot_Vanilla.toc` (Classic Era)
+- `WowGachaBot_TBC.toc` (Burning Crusade Classic)
+- `WowGachaBot_Wrath.toc` (Wrath of the Lich King Classic)
+
+The built addon will be available in the `.release/WowGachaBot/` directory.
+
+## Development Workflow
+
+### Quick Development Cycle
+
+1. **Set up symlink once** (if using Option A above):
+
+   ```bash
+   ln -s "$(pwd)/.release/WowGachaBot" "/c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WowGachaBot"
+   ```
+
+2. **Make changes** to your addon files (`.lua`, `.toc`, `.xml`)
+
+3. **Rebuild** the addon:
+
+   ```bash
+   .release/release.sh -d -z -o
+   ```
+
+4. **Reload in-game**:
+
+   ```
+   /reload
+   ```
+
+5. **Test** your changes
+
+The symlink automatically points to the latest built version, so you don't need to copy files manually!
+
+### Testing Different Game Versions
+
+The script creates separate TOC files for each game version. To test a specific version:
+
+1. **Classic Era**: Use `WowGachaBot_Vanilla.toc`
+2. **Burning Crusade Classic**: Use `WowGachaBot_TBC.toc`
+3. **Wrath of the Lich King Classic**: Use `WowGachaBot_Wrath.toc`
+
+You can temporarily rename the TOC file in the symlinked directory to test different versions.
 
 ## Publishing
 
@@ -111,3 +189,64 @@ To configure upload destinations, update the TOC file with the appropriate IDs:
 ```
 
 Or use the `.pkgmeta` file to override these values.
+
+## Troubleshooting
+
+### "release.sh is ignoring addon files"
+
+**Problem**: The script shows "Ignoring: WowGachaBot.lua, WowGachaBot.toc, WowGachaBot.xml"
+
+**Solution**: Make sure you have at least one Git commit:
+
+```bash
+git add .
+git commit -m "Initial commit"
+```
+
+The WoW Packager requires Git history to identify which files are part of the addon.
+
+### "zip: command not found"
+
+**Problem**: Getting "zip: command not found" error when creating zip files
+
+**Solution**: This is normal on Windows Git Bash. Use the `-z` flag to skip zip creation:
+
+```bash
+./release.sh -d -z  # Build only, no zip
+```
+
+The addon files will still be built in the `.release/WowGachaBot/` directory.
+
+### "malformed object name 'HEAD'"
+
+**Problem**: Getting Git errors about malformed object names
+
+**Solution**: Make sure you have at least one commit in your repository:
+
+```bash
+git add .
+git commit -m "Initial commit"
+```
+
+### Symlink Issues
+
+**Problem**: "ln: failed to create symbolic link: File exists"
+
+**Solution**: Remove the existing symlink first:
+
+```bash
+rm "/c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WowGachaBot"
+ln -s "$(pwd)/.release/WowGachaBot" "/c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WowGachaBot"
+```
+
+**Problem**: "ln: failed to create symbolic link: Permission denied"
+
+**Solution**: Run Git Bash as Administrator, or use a different WoW installation path that you have write access to.
+
+**Problem**: Addon not loading in-game
+
+**Solution**: Make sure the symlink path is correct and the addon files exist:
+
+```bash
+ls -la "/c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WowGachaBot"
+```

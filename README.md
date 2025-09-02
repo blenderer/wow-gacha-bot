@@ -28,7 +28,7 @@ A simple World of Warcraft Classic addon that responds to party chat commands.
 
 ### Supported Game Versions
 
-- **Classic Era**: Interface 11502
+- **Classic Era & Anniversary**: Interface 11507
 - **Burning Crusade Classic**: Interface 20504
 - **Wrath of the Lich King Classic**: Interface 30403
 
@@ -53,9 +53,16 @@ This project uses the [WoW Packager](https://github.com/marketplace/actions/wow-
    cd wow-gacha-bot
    ```
 
-2. Copy the addon files to your WoW Classic AddOns directory for testing
+2. **Important**: Make sure you have at least one Git commit before building:
 
-3. Make your changes and test in-game
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   ```
+
+3. Copy the addon files to your WoW Classic AddOns directory for testing
+
+4. Make your changes and test in-game
 
 #### Automated Building
 

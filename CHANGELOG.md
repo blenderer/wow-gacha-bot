@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Debug mode and configuration options
 - GitHub Actions workflows for building and releasing
 - Support for multiple WoW Classic versions:
-  - Classic Era (Interface 11502)
+  - Classic Era & Anniversary (Interface 11507)
   - Burning Crusade Classic (Interface 20504)
   - Wrath of the Lich King Classic (Interface 30403)
 
@@ -34,7 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release of Wow Gacha Bot
 - Basic functionality to respond to `!open` command in party chat
-- Support for both Era and Anniversary realms
+- Support for both Era and Anniversary realms (Interface 11507)
 - Slash command interface for addon management
 - Debug mode for troubleshooting
 - Automated build and release pipeline
