@@ -1,0 +1,25 @@
+name: Build
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build Addon
+        uses: BigWigsMods/packager@v2
+        with:
+          args: -d -z
+
+      - name: Upload Build Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: wow-gacha-bot-${{ github.sha }}
+          path: .release/*.zip

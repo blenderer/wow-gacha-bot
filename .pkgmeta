@@ -1,0 +1,30 @@
+# WoW Gacha Bot Package Configuration
+
+# Enable TOC file creation for different game types
+enable-toc-creation: yes
+
+# Package configuration
+package-as: WowGachaBot
+
+# Changelog configuration
+changelog-title: "Changelog"
+manual-changelog: CHANGELOG.md
+
+# License file
+license-output: LICENSE
+
+# Ignore files that shouldn't be packaged
+ignore:
+  - "README.md"
+  - "SETUP.md"
+  - ".git*"
+  - ".github/"
+  - ".release/"
+  - "*.zip"
+  - "*.rar"
+  - "*.7z"
+
+# WoWInterface specific settings
+wowi-archive-previous: yes
+wowi-create-changelog: yes
+wowi-convert-changelog: yes
