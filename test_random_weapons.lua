@@ -30,7 +30,8 @@ local function testRandomWeapons()
     print("")
 
     -- Test basic random weapons
-    for i = 1, 5 do
+    -- print("1. Basic Random Weapons:")
+    for i = 1, 10 do
         local weapon = WeaponsDB:GetRandomWeapon()
         printWeapon(weapon, i)
     end
