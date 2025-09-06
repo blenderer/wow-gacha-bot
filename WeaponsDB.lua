@@ -138,9 +138,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 18},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 18 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -214,8 +214,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 12},
-            {stat = 0, value = 0}
+            { stat = 0, value = 12 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -253,7 +253,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -327,8 +327,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -366,8 +366,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -441,8 +441,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -624,7 +624,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -662,8 +662,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -701,7 +701,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -739,9 +739,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -779,9 +779,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -819,9 +819,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -859,8 +859,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -898,7 +898,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -936,7 +936,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -974,8 +974,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -1013,8 +1013,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -1052,7 +1052,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -1090,9 +1090,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -1166,7 +1166,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -1204,8 +1204,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -1243,9 +1243,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -1283,7 +1283,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -1321,7 +1321,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -1359,9 +1359,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -1399,9 +1399,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -1799,7 +1799,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -1837,8 +1837,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -1876,7 +1876,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -1914,8 +1914,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -1953,7 +1953,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -1991,8 +1991,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -2030,8 +2030,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -2069,8 +2069,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -2108,8 +2108,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -2147,9 +2147,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -2187,8 +2187,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -2262,7 +2262,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -2300,7 +2300,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -2410,7 +2410,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -2448,7 +2448,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -2486,7 +2486,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -2560,7 +2560,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -2634,7 +2634,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -2672,7 +2672,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -2710,7 +2710,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -3288,7 +3288,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -3434,8 +3434,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -3581,8 +3581,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -3620,7 +3620,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -3658,8 +3658,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -3913,7 +3913,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -4203,8 +4203,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -4242,7 +4242,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -4316,9 +4316,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -4356,9 +4356,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -4396,8 +4396,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -4471,7 +4471,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -4509,8 +4509,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 36},
-            {stat = 0, value = 0}
+            { stat = 0, value = 36 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -4548,7 +4548,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -5162,8 +5162,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -5201,7 +5201,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -5239,7 +5239,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -5277,7 +5277,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -5423,8 +5423,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 6}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 6 }
         },
         damage = {},
         armor = 0,
@@ -5462,7 +5462,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -5500,7 +5500,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -5538,9 +5538,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 12},
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 12 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -5578,8 +5578,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -5617,8 +5617,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -5800,8 +5800,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -5875,8 +5875,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -5914,7 +5914,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -6024,8 +6024,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -6063,7 +6063,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -6137,9 +6137,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 18},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 18 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -6177,9 +6177,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 18},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 18 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -8953,9 +8953,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -8993,8 +8993,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -9356,7 +9356,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -9538,7 +9538,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -9576,7 +9576,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -10118,9 +10118,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -10302,9 +10302,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -10702,7 +10702,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -10848,9 +10848,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -10996,7 +10996,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -11034,7 +11034,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -11072,7 +11072,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -11146,8 +11146,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -11185,7 +11185,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -11331,8 +11331,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -11370,8 +11370,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -11409,7 +11409,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -11627,9 +11627,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -11847,8 +11847,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -12066,8 +12066,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -12177,8 +12177,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -12324,8 +12324,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -12363,7 +12363,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -12509,7 +12509,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -12619,7 +12619,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -12657,8 +12657,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -12696,7 +12696,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -12878,8 +12878,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -12917,8 +12917,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -12956,8 +12956,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -13031,8 +13031,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -13106,8 +13106,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -13145,8 +13145,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -13328,8 +13328,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -13367,8 +13367,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -13514,7 +13514,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -13588,8 +13588,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -13627,8 +13627,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -13666,9 +13666,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -13706,8 +13706,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -13781,8 +13781,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -13856,9 +13856,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -14112,7 +14112,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -14150,8 +14150,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -14261,10 +14261,10 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 7},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -14338,7 +14338,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -14556,8 +14556,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -14595,9 +14595,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -14635,8 +14635,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -14674,7 +14674,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -14712,8 +14712,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -14751,8 +14751,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -14790,8 +14790,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -14937,9 +14937,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -15013,7 +15013,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -15051,7 +15051,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -15089,7 +15089,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -15127,7 +15127,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -15561,7 +15561,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -16067,7 +16067,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -16105,8 +16105,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -16144,8 +16144,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -16183,9 +16183,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -16223,7 +16223,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -16297,8 +16297,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -16336,8 +16336,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -16447,9 +16447,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -16487,8 +16487,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -16598,8 +16598,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -16673,9 +16673,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -16713,7 +16713,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -16751,7 +16751,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -16789,9 +16789,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -16865,9 +16865,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -16977,8 +16977,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -17088,8 +17088,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -17127,10 +17127,10 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 5},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 5 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -17204,7 +17204,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -17314,8 +17314,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -17353,8 +17353,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -17392,7 +17392,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -17538,7 +17538,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -17576,9 +17576,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -17616,9 +17616,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -17656,9 +17656,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -17696,8 +17696,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -17735,9 +17735,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -17811,8 +17811,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -17958,9 +17958,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -17998,8 +17998,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -18253,7 +18253,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -18363,7 +18363,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -18401,7 +18401,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -18439,7 +18439,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -18477,9 +18477,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -18517,9 +18517,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -18557,9 +18557,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -18597,8 +18597,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -18672,7 +18672,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -18710,7 +18710,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -18748,9 +18748,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -18896,7 +18896,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -18970,8 +18970,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -19009,7 +19009,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -19047,9 +19047,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -19483,7 +19483,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -19953,8 +19953,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -20100,8 +20100,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -20175,8 +20175,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -20214,7 +20214,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -20252,7 +20252,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -20290,9 +20290,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -20330,9 +20330,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -20370,8 +20370,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -20589,7 +20589,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -20627,8 +20627,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -20666,8 +20666,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -20705,9 +20705,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -20781,7 +20781,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -20819,7 +20819,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -20857,7 +20857,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3}
+            { stat = 0, value = 3 }
         },
         damage = {},
         armor = 0,
@@ -20895,7 +20895,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -20933,7 +20933,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -20971,7 +20971,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -21009,7 +21009,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -21047,7 +21047,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -21157,7 +21157,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -21231,8 +21231,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -21306,7 +21306,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -21344,8 +21344,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -21383,8 +21383,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -21422,7 +21422,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -21460,8 +21460,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -21499,8 +21499,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -21538,7 +21538,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -21576,9 +21576,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -21652,7 +21652,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -21798,8 +21798,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -21945,8 +21945,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -22056,8 +22056,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -22095,7 +22095,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -22133,8 +22133,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -22172,8 +22172,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -22247,7 +22247,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -22321,8 +22321,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -22468,7 +22468,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -22614,7 +22614,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -22868,9 +22868,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -22908,8 +22908,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -23019,8 +23019,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -23058,8 +23058,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -23097,8 +23097,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -23136,7 +23136,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -23174,7 +23174,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -23212,8 +23212,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -23251,7 +23251,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -23289,8 +23289,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -23328,8 +23328,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -23367,13 +23367,13 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 7},
-            {stat = 0, value = 31},
-            {stat = 0, value = 37}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 37 }
         },
         damage = {
-            {min = 17, max = 0, type = 0}
+            { min = 17, max = 0, type = 0 }
         },
         armor = 0,
         resistances = {
@@ -23410,13 +23410,13 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 7},
-            {stat = 0, value = 31},
-            {stat = 0, value = 37}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 37 }
         },
         damage = {
-            {min = 17, max = 0, type = 0}
+            { min = 17, max = 0, type = 0 }
         },
         armor = 0,
         resistances = {
@@ -23453,8 +23453,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -23492,10 +23492,10 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 7},
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -23569,8 +23569,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -23608,8 +23608,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 13},
-            {stat = 0, value = 0}
+            { stat = 0, value = 13 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -23683,9 +23683,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -23723,8 +23723,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -23762,9 +23762,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -23802,8 +23802,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -23841,8 +23841,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -23880,9 +23880,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 18},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 18 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -23920,8 +23920,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -23959,9 +23959,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -23999,9 +23999,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 18},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 18 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -24039,8 +24039,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -24294,8 +24294,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -24333,9 +24333,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 12},
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 12 },
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -24373,8 +24373,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -24448,8 +24448,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -24487,9 +24487,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 37},
-            {stat = 0, value = 36},
-            {stat = 0, value = 0}
+            { stat = 0, value = 37 },
+            { stat = 0, value = 36 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -24527,7 +24527,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -24565,7 +24565,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -24603,7 +24603,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -24713,7 +24713,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -24823,7 +24823,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -24969,7 +24969,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -25007,8 +25007,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 36},
-            {stat = 0, value = 0}
+            { stat = 0, value = 36 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -25082,8 +25082,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -25121,7 +25121,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -25159,9 +25159,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -25199,8 +25199,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -25238,7 +25238,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -25276,8 +25276,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -25315,8 +25315,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -25354,8 +25354,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -25393,8 +25393,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -25432,8 +25432,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -25471,8 +25471,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -25510,7 +25510,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -25548,8 +25548,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -25587,7 +25587,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -25625,8 +25625,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -25736,7 +25736,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -25774,7 +25774,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -25812,7 +25812,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -25850,8 +25850,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -25961,8 +25961,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -26000,8 +26000,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -26111,9 +26111,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 36},
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 36 },
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -26151,7 +26151,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -26189,8 +26189,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -26228,8 +26228,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -26303,7 +26303,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -26341,8 +26341,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -26380,7 +26380,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -26418,8 +26418,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -26457,7 +26457,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -26855,7 +26855,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -26893,8 +26893,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -26968,8 +26968,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -27007,7 +27007,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -27045,8 +27045,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -27084,8 +27084,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -27123,7 +27123,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -27485,9 +27485,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 36},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 36 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -27525,7 +27525,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -27563,9 +27563,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 30},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 30 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -27603,10 +27603,10 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 30},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 30 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -27644,7 +27644,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -27682,9 +27682,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -27722,9 +27722,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -27762,9 +27762,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -27838,8 +27838,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -27913,8 +27913,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -28096,8 +28096,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -28135,8 +28135,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -28174,9 +28174,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -28250,8 +28250,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -28289,9 +28289,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -28329,7 +28329,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -28367,8 +28367,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -28478,7 +28478,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -28552,8 +28552,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -28735,8 +28735,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -28774,7 +28774,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -28956,9 +28956,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -28996,8 +28996,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -29071,8 +29071,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -29110,7 +29110,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -29256,9 +29256,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -29296,8 +29296,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -29335,9 +29335,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -29444,7 +29444,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -29482,7 +29482,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -30312,7 +30312,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -30350,8 +30350,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 36},
-            {stat = 0, value = 0}
+            { stat = 0, value = 36 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -30389,9 +30389,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 30},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 30 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -30429,8 +30429,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 36},
-            {stat = 0, value = 0}
+            { stat = 0, value = 36 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -30504,9 +30504,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -30544,7 +30544,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -30582,9 +30582,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 18},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 18 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -30622,8 +30622,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -30661,7 +30661,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -30699,8 +30699,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -30810,9 +30810,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -30850,8 +30850,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -30889,8 +30889,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -30964,7 +30964,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31002,9 +31002,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31042,9 +31042,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31082,8 +31082,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31157,9 +31157,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31233,9 +31233,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31273,7 +31273,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31311,9 +31311,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31351,7 +31351,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31389,7 +31389,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31427,7 +31427,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31465,7 +31465,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31503,7 +31503,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31541,7 +31541,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31579,9 +31579,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31655,7 +31655,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31693,7 +31693,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31731,8 +31731,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31770,7 +31770,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31808,8 +31808,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 36},
-            {stat = 0, value = 0}
+            { stat = 0, value = 36 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31847,7 +31847,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31885,7 +31885,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31923,7 +31923,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31961,7 +31961,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -31999,8 +31999,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -32038,7 +32038,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -32076,7 +32076,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -32114,8 +32114,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -32297,8 +32297,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -32336,7 +32336,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -32410,8 +32410,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -32485,7 +32485,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -32559,7 +32559,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -32597,8 +32597,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -32636,7 +32636,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -32674,9 +32674,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -32714,8 +32714,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -32753,7 +32753,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -32791,7 +32791,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -32829,7 +32829,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -32867,7 +32867,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -32905,9 +32905,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -33197,7 +33197,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -33235,8 +33235,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -33274,9 +33274,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 18},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 18 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -33314,7 +33314,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -33352,8 +33352,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -33391,7 +33391,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -33429,7 +33429,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -33647,9 +33647,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 18},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 18 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -33687,7 +33687,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -33977,8 +33977,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -34124,8 +34124,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -34163,7 +34163,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -34247,7 +34247,8 @@ local WeaponsDB = {
         is_tbc = true,
     },
     [30752] = {
-        name = "Mag'hari Battleaxe',42748,1,0,1,168397,33679,17,-1,-1,70,60,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,73,110,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1800,0,0,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,'Countless more Mag'har have fallen than remain",
+        name =
+        "Mag'hari Battleaxe',42748,1,0,1,168397,33679,17,-1,-1,70,60,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,73,110,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1800,0,0,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,'Countless more Mag'har have fallen than remain",
         class = 2,
         subclass = 1,
         subclass_name = "Axe (2H)",
@@ -34306,7 +34307,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -34344,7 +34345,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -34356,7 +34357,8 @@ local WeaponsDB = {
         is_tbc = false,
     },
     [30755] = {
-        name = "Mag'hari Fighting Claw',42758,2,0,1,254979,50995,21,-1,-1,80,60,0,0,0,0,0,0,0,0,1,0,7,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1600,0,0,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,2,'Weapon of Mag'hari Heroes",
+        name =
+        "Mag'hari Fighting Claw',42758,2,0,1,254979,50995,21,-1,-1,80,60,0,0,0,0,0,0,0,0,1,0,7,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1600,0,0,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,2,'Weapon of Mag'hari Heroes",
         class = 2,
         subclass = 13,
         subclass_name = "Fist Weapon",
@@ -34382,8 +34384,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 0,
         stats = {
-            {stat = 0, value = 0},
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -34418,7 +34420,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -34600,7 +34602,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -34638,8 +34640,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -34677,8 +34679,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -34788,7 +34790,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -34862,9 +34864,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -34902,8 +34904,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -34977,8 +34979,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -35016,9 +35018,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -35200,8 +35202,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 36},
-            {stat = 0, value = 0}
+            { stat = 0, value = 36 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -35239,8 +35241,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -35314,8 +35316,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -35497,7 +35499,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -35535,9 +35537,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -35575,8 +35577,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -35614,9 +35616,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -35654,9 +35656,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -35730,9 +35732,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -35842,9 +35844,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -35882,9 +35884,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -35922,7 +35924,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -35960,8 +35962,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -36035,8 +36037,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -36074,8 +36076,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -36113,8 +36115,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -36152,8 +36154,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -36227,9 +36229,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -36267,9 +36269,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -36307,9 +36309,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -36491,7 +36493,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -36529,8 +36531,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -36676,7 +36678,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -36714,8 +36716,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -36753,10 +36755,10 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 6},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -36794,8 +36796,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -36869,8 +36871,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -36908,8 +36910,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -36947,7 +36949,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -36985,8 +36987,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -37024,8 +37026,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -37063,8 +37065,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -37102,8 +37104,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -37141,10 +37143,10 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 18},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 18 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -37218,9 +37220,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -37258,7 +37260,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -37548,7 +37550,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -37586,7 +37588,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -37624,7 +37626,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -37806,7 +37808,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -37952,7 +37954,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -38026,8 +38028,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -38065,7 +38067,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -38103,7 +38105,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -38177,8 +38179,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -38216,8 +38218,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -38255,8 +38257,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -38294,8 +38296,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -38333,7 +38335,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -38371,8 +38373,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -38410,8 +38412,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -38449,7 +38451,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -38487,8 +38489,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -38526,7 +38528,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -38564,7 +38566,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -38602,9 +38604,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -38642,7 +38644,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -38680,8 +38682,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -38755,9 +38757,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -38867,8 +38869,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -38906,7 +38908,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -38944,8 +38946,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -39055,8 +39057,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -39130,8 +39132,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -39205,8 +39207,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -39280,7 +39282,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -39318,7 +39320,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -39356,7 +39358,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -39430,9 +39432,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -39470,13 +39472,13 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 32},
-            {stat = 0, value = 21},
-            {stat = 0, value = 5}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 32 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 5 }
         },
         damage = {
-            {min = 30, max = 0, type = 0}
+            { min = 30, max = 0, type = 0 }
         },
         armor = 0,
         resistances = {
@@ -39513,9 +39515,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 12},
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 12 },
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -39553,8 +39555,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -39592,9 +39594,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -39665,7 +39667,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -39703,7 +39705,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -39885,8 +39887,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -39924,8 +39926,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -39963,8 +39965,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -40002,9 +40004,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -40042,8 +40044,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -40081,7 +40083,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -40623,8 +40625,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -40878,8 +40880,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -41025,7 +41027,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -41099,8 +41101,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -41678,8 +41680,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -41753,8 +41755,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -41900,7 +41902,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -41974,7 +41976,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -42012,9 +42014,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -42052,8 +42054,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 12},
-            {stat = 0, value = 0}
+            { stat = 0, value = 12 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -42163,7 +42165,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -42201,7 +42203,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -42239,8 +42241,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -42314,7 +42316,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -42352,7 +42354,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -42390,8 +42392,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -42429,9 +42431,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -42469,8 +42471,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -42508,8 +42510,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -42547,7 +42549,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -42729,8 +42731,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -42804,7 +42806,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -42842,7 +42844,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -42880,8 +42882,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -42919,8 +42921,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -42994,10 +42996,10 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 7},
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -43035,8 +43037,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -43074,7 +43076,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -43148,9 +43150,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -43224,8 +43226,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -43263,8 +43265,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -43302,9 +43304,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -43378,8 +43380,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -43417,9 +43419,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -43529,8 +43531,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -43604,7 +43606,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -43642,7 +43644,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -43752,9 +43754,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -43792,8 +43794,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -43903,7 +43905,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -43941,7 +43943,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -43979,8 +43981,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -44018,8 +44020,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -44057,7 +44059,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -44095,7 +44097,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -44133,9 +44135,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -44173,8 +44175,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -44248,8 +44250,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -44287,8 +44289,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -44326,8 +44328,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -44437,9 +44439,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -44477,7 +44479,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -44515,8 +44517,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -44554,9 +44556,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -44594,9 +44596,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -44634,7 +44636,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -44672,7 +44674,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -44854,7 +44856,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -45108,8 +45110,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -45255,8 +45257,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -45294,7 +45296,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -45368,7 +45370,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -45406,13 +45408,13 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 6},
-            {stat = 0, value = 7},
-            {stat = 0, value = 4}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 4 }
         },
         damage = {
-            {min = 11, max = 0, type = 0}
+            { min = 11, max = 0, type = 0 }
         },
         armor = 0,
         resistances = {
@@ -45449,8 +45451,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -45524,7 +45526,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -45562,7 +45564,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -45600,7 +45602,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -45674,8 +45676,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -45713,7 +45715,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -45751,8 +45753,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -45862,9 +45864,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -45902,7 +45904,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -45940,7 +45942,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -45978,9 +45980,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -46234,8 +46236,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -46273,8 +46275,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -46312,9 +46314,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -46424,7 +46426,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -46462,7 +46464,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -46500,8 +46502,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -46539,8 +46541,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -46578,8 +46580,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -46617,8 +46619,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -46656,8 +46658,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -46695,8 +46697,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -46734,7 +46736,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -46772,7 +46774,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -46810,7 +46812,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -46848,7 +46850,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -46886,8 +46888,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -47033,7 +47035,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -47071,7 +47073,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -47109,7 +47111,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -47183,7 +47185,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -47401,9 +47403,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -47657,7 +47659,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -47803,7 +47805,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -48093,8 +48095,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -48348,7 +48350,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -48458,8 +48460,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -48497,7 +48499,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -48535,7 +48537,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -48897,8 +48899,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -48936,8 +48938,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -48975,8 +48977,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -49050,7 +49052,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -49088,7 +49090,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -49126,9 +49128,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -49166,8 +49168,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -49205,8 +49207,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -49244,9 +49246,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -49284,9 +49286,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -49360,8 +49362,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -49579,7 +49581,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -49617,8 +49619,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -49728,8 +49730,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -50379,7 +50381,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -50417,7 +50419,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -50455,8 +50457,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -50494,7 +50496,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -50532,7 +50534,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -50678,8 +50680,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -50717,8 +50719,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -50756,8 +50758,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -50795,8 +50797,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -51086,7 +51088,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -51124,8 +51126,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -51163,7 +51165,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -51201,7 +51203,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -51239,8 +51241,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -51278,8 +51280,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -51317,8 +51319,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -51356,7 +51358,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -51394,7 +51396,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -51432,8 +51434,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -51471,9 +51473,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -51511,7 +51513,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -51549,7 +51551,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -51587,7 +51589,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -51625,8 +51627,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -51664,7 +51666,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -51702,7 +51704,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -51776,7 +51778,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -51814,7 +51816,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -51996,8 +51998,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -52035,8 +52037,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -52074,7 +52076,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -52112,8 +52114,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -52367,9 +52369,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -52443,8 +52445,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -52482,9 +52484,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -52522,7 +52524,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -52560,8 +52562,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -52599,8 +52601,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -52674,8 +52676,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -52713,9 +52715,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -52753,9 +52755,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -52793,9 +52795,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -52869,10 +52871,10 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 32},
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 32 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -52910,9 +52912,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 21},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 21 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -53094,7 +53096,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -53204,8 +53206,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -53423,8 +53425,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -53570,8 +53572,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -53681,8 +53683,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -53828,7 +53830,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -53866,8 +53868,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -53977,7 +53979,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -54015,7 +54017,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -54053,7 +54055,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -54091,7 +54093,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -54129,9 +54131,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -54169,8 +54171,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -54208,8 +54210,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -54391,7 +54393,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -54429,9 +54431,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 18},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 18 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -54469,8 +54471,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -54508,7 +54510,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -54726,9 +54728,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -54766,9 +54768,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -54806,8 +54808,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 35},
-            {stat = 0, value = 0}
+            { stat = 0, value = 35 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -54845,10 +54847,10 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 7},
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -54886,9 +54888,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -54962,7 +54964,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -54974,7 +54976,8 @@ local WeaponsDB = {
         is_tbc = true,
     },
     [31986] = {
-        name = "Merciless Gladiator's Crossbow of the Phoenix',42385,4,32768,1,0,0,26,-1,-1,136,70,0,0,0,0,0,0,0,0,1,0,7,21,32,15,35,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,211,318,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3000,2,100,21436,1,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,1,'Finely crafted to Ephoenix's specification",
+        name =
+        "Merciless Gladiator's Crossbow of the Phoenix',42385,4,32768,1,0,0,26,-1,-1,136,70,0,0,0,0,0,0,0,0,1,0,7,21,32,15,35,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,211,318,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3000,2,100,21436,1,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,1,'Finely crafted to Ephoenix's specification",
         class = 2,
         subclass = 18,
         subclass_name = "Crossbow",
@@ -55105,7 +55108,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -55215,9 +55218,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -55255,9 +55258,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 18},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 18 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -55331,8 +55334,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -55370,7 +55373,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -55408,8 +55411,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -55447,8 +55450,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -55486,8 +55489,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -55525,8 +55528,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -55564,8 +55567,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -55603,7 +55606,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -55641,7 +55644,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -55679,7 +55682,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -55753,7 +55756,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -55791,9 +55794,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -55831,8 +55834,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -56014,7 +56017,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -56052,8 +56055,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -56091,8 +56094,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 12},
-            {stat = 0, value = 0}
+            { stat = 0, value = 12 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -56202,8 +56205,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -56385,7 +56388,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -56423,8 +56426,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -56498,8 +56501,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -56537,7 +56540,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -56611,7 +56614,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -56685,7 +56688,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -56795,7 +56798,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -56905,7 +56908,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -57087,7 +57090,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -57125,7 +57128,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -57163,7 +57166,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -57201,7 +57204,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -57239,9 +57242,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -57279,8 +57282,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -57318,8 +57321,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -57357,9 +57360,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -57397,9 +57400,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -57437,9 +57440,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -57477,7 +57480,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -57515,7 +57518,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -57553,8 +57556,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -57592,8 +57595,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -57667,8 +57670,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -57778,7 +57781,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -57852,7 +57855,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -57890,8 +57893,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -58073,9 +58076,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -58113,8 +58116,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -58296,7 +58299,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -58334,7 +58337,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -58372,7 +58375,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -58518,7 +58521,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -58628,8 +58631,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -58739,7 +58742,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -58777,8 +58780,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -58816,7 +58819,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -59034,8 +59037,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -59073,8 +59076,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -59112,7 +59115,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -59150,8 +59153,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -59261,7 +59264,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -59299,8 +59302,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -59446,7 +59449,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -59592,7 +59595,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -59846,7 +59849,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -59920,8 +59923,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -60031,7 +60034,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -60069,7 +60072,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -60107,8 +60110,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -60146,7 +60149,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -60184,7 +60187,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -60222,7 +60225,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -60365,8 +60368,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -60476,8 +60479,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -60515,7 +60518,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -60589,7 +60592,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -60663,8 +60666,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -60882,8 +60885,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -61029,9 +61032,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -61069,7 +61072,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -61107,7 +61110,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -61253,7 +61256,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -61363,8 +61366,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -61546,7 +61549,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -61584,9 +61587,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -61912,8 +61915,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -61987,8 +61990,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -62026,7 +62029,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -62172,8 +62175,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -62211,9 +62214,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 35},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 35 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -62251,9 +62254,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -62399,7 +62402,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -62473,7 +62476,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -62619,7 +62622,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -62729,9 +62732,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -62851,7 +62854,8 @@ local WeaponsDB = {
         is_tbc = false,
     },
     [19944] = {
-        name = "Nat Pagle's Fish Terminator',32450,4,0,1,430576,86115,17,-1,-1,65,60,0,0,0,0,0,0,0,1,1,0,4,41,7,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,172,258,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3500,0,0,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,1,'The inscription reads: Fishin's fer sissies -Nat Pagle",
+        name =
+        "Nat Pagle's Fish Terminator',32450,4,0,1,430576,86115,17,-1,-1,65,60,0,0,0,0,0,0,0,1,1,0,4,41,7,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,172,258,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3500,0,0,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,1,'The inscription reads: Fishin's fer sissies -Nat Pagle",
         class = 2,
         subclass = 10,
         subclass_name = "Staff",
@@ -62877,8 +62881,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 0,
         stats = {
-            {stat = 0, value = 0},
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -62913,7 +62917,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -63059,8 +63063,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -63098,7 +63102,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -63136,7 +63140,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -63174,9 +63178,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -63250,8 +63254,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -63289,8 +63293,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -63400,8 +63404,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -63439,8 +63443,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -63478,10 +63482,10 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 6},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -63699,8 +63703,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -63774,7 +63778,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -63812,9 +63816,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 12},
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 12 },
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -63888,8 +63892,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -63927,7 +63931,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -63965,8 +63969,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -64004,8 +64008,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -64043,8 +64047,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -64082,7 +64086,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -64156,7 +64160,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -64230,8 +64234,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -64305,7 +64309,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -64379,8 +64383,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -64490,7 +64494,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -64528,7 +64532,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -64566,9 +64570,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -64606,7 +64610,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -64644,8 +64648,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -64755,8 +64759,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 35},
-            {stat = 0, value = 0}
+            { stat = 0, value = 35 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -64794,7 +64798,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -64832,7 +64836,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -64870,9 +64874,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 30},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 30 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -64910,9 +64914,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -64950,9 +64954,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -65098,9 +65102,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -65174,8 +65178,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -65213,7 +65217,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -65251,8 +65255,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -65290,8 +65294,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -65365,8 +65369,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -65404,8 +65408,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -65443,8 +65447,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -65590,8 +65594,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -65629,8 +65633,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -65704,7 +65708,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -65742,8 +65746,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -65781,8 +65785,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -65820,8 +65824,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -66003,10 +66007,10 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 4},
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 4 },
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -66116,7 +66120,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -66154,8 +66158,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -66193,8 +66197,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 35},
-            {stat = 0, value = 0}
+            { stat = 0, value = 35 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -66304,7 +66308,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -66342,8 +66346,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -66381,8 +66385,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -66456,8 +66460,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -66495,8 +66499,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 13},
-            {stat = 0, value = 0}
+            { stat = 0, value = 13 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -66570,8 +66574,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -66645,7 +66649,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -66719,8 +66723,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -66758,8 +66762,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -66797,7 +66801,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -66943,7 +66947,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -66981,8 +66985,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -67020,8 +67024,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -67095,9 +67099,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -67171,8 +67175,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 18},
-            {stat = 0, value = 0}
+            { stat = 0, value = 18 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -67210,9 +67214,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -67286,7 +67290,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -67324,7 +67328,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -67362,8 +67366,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -67437,8 +67441,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -67476,8 +67480,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -67515,8 +67519,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -67554,8 +67558,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -67593,8 +67597,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -67632,7 +67636,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -67670,8 +67674,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -67709,9 +67713,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -67749,8 +67753,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -67788,9 +67792,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 30},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 30 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -67828,8 +67832,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -67867,7 +67871,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -67905,8 +67909,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -67944,9 +67948,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -67984,7 +67988,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -68022,8 +68026,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -68061,8 +68065,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -68100,7 +68104,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -68138,7 +68142,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -68176,9 +68180,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -68288,7 +68292,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -68326,8 +68330,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -68365,9 +68369,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -68441,7 +68445,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -68479,9 +68483,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 12},
-            {stat = 0, value = 13},
-            {stat = 0, value = 0}
+            { stat = 0, value = 12 },
+            { stat = 0, value = 13 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -68555,7 +68559,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -68593,8 +68597,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -68704,8 +68708,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -68779,9 +68783,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -68819,9 +68823,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -68859,7 +68863,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -68897,9 +68901,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -68937,8 +68941,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -69012,9 +69016,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -69052,9 +69056,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 14},
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 14 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -69128,8 +69132,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -69239,7 +69243,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -69313,8 +69317,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 30},
-            {stat = 0, value = 0}
+            { stat = 0, value = 30 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -69388,9 +69392,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 30},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 30 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -69464,8 +69468,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -69503,8 +69507,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -69650,8 +69654,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -69689,8 +69693,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -69728,8 +69732,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -69767,10 +69771,10 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 32},
-            {stat = 0, value = 36},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 32 },
+            { stat = 0, value = 36 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -69808,7 +69812,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -69846,8 +69850,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -69885,7 +69889,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -69923,8 +69927,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -69962,9 +69966,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -70002,8 +70006,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 35},
-            {stat = 0, value = 0}
+            { stat = 0, value = 35 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -70041,8 +70045,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -70080,8 +70084,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -70119,7 +70123,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -70157,8 +70161,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -70232,8 +70236,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -70271,8 +70275,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -70310,9 +70314,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -70350,9 +70354,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -70390,8 +70394,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -70429,8 +70433,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -70504,8 +70508,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -70579,8 +70583,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -70690,9 +70694,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -70730,10 +70734,10 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 18},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 18 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -70771,8 +70775,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -70810,8 +70814,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -70885,9 +70889,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -70925,7 +70929,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -71359,8 +71363,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -71398,8 +71402,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -71437,9 +71441,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -71477,8 +71481,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -71552,9 +71556,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -71628,8 +71632,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -71703,8 +71707,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -71778,9 +71782,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -71854,8 +71858,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -72145,8 +72149,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -72184,8 +72188,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -72223,8 +72227,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -72262,8 +72266,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -72301,8 +72305,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -72340,7 +72344,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -72414,7 +72418,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -72452,8 +72456,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -72527,9 +72531,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -72567,8 +72571,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -72606,9 +72610,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -72682,10 +72686,10 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 5},
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 5 },
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -72795,8 +72799,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -72834,7 +72838,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -72908,7 +72912,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -72946,9 +72950,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 12},
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 12 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -72986,7 +72990,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -73096,7 +73100,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -73134,8 +73138,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -73173,7 +73177,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -73211,8 +73215,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -73250,9 +73254,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -73290,8 +73294,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -73329,8 +73333,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -73368,9 +73372,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -73408,8 +73412,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -73483,7 +73487,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -73521,8 +73525,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -73560,7 +73564,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -73598,7 +73602,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -73636,7 +73640,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -73674,7 +73678,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -73712,8 +73716,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -73751,8 +73755,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -73790,8 +73794,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -73829,8 +73833,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -73904,9 +73908,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -73944,9 +73948,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -73984,9 +73988,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -74024,8 +74028,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -74387,7 +74391,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -74425,7 +74429,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -74463,9 +74467,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -74539,7 +74543,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -74613,8 +74617,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -74652,8 +74656,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -74691,8 +74695,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -74730,7 +74734,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -74804,8 +74808,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -74843,9 +74847,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 35},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 35 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -74883,8 +74887,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75030,7 +75034,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75068,9 +75072,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 18},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 18 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75108,7 +75112,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75146,7 +75150,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75184,7 +75188,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75222,7 +75226,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75260,7 +75264,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75298,7 +75302,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75336,8 +75340,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75375,8 +75379,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75414,8 +75418,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75525,9 +75529,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75565,9 +75569,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75605,7 +75609,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75643,7 +75647,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75681,8 +75685,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75720,9 +75724,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75796,8 +75800,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75835,7 +75839,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75873,8 +75877,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75912,8 +75916,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75951,8 +75955,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -75990,8 +75994,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -76065,9 +76069,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -76105,8 +76109,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -76144,7 +76148,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -76182,8 +76186,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -76257,9 +76261,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 18},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 18 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -76297,9 +76301,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -76337,7 +76341,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -76375,9 +76379,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 12},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 12 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -76415,9 +76419,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -76455,7 +76459,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -76493,8 +76497,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -76532,8 +76536,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -76571,9 +76575,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -76647,9 +76651,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -76687,9 +76691,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -76727,7 +76731,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -76765,8 +76769,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -76804,8 +76808,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -76843,10 +76847,10 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 4},
-            {stat = 0, value = 3},
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 4 },
+            { stat = 0, value = 3 },
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -76884,8 +76888,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -76923,7 +76927,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -76961,8 +76965,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -77072,7 +77076,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -77146,9 +77150,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -77222,9 +77226,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -77262,7 +77266,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -77300,8 +77304,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -77591,8 +77595,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -77630,7 +77634,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -77668,8 +77672,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -78427,9 +78431,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -78503,7 +78507,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -78541,9 +78545,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 18},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 18 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -78617,9 +78621,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -78657,9 +78661,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 21},
-            {stat = 0, value = 18},
-            {stat = 0, value = 0}
+            { stat = 0, value = 21 },
+            { stat = 0, value = 18 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -78769,9 +78773,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 18},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 18 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -78809,8 +78813,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -78848,9 +78852,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -78888,9 +78892,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -79000,7 +79004,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -79110,7 +79114,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -79148,8 +79152,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -79187,9 +79191,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 15},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 15 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -79227,8 +79231,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -79266,9 +79270,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 21},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 21 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -79306,9 +79310,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 4},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 4 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -79454,8 +79458,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -79493,7 +79497,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -79675,7 +79679,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -79713,8 +79717,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 32},
-            {stat = 0, value = 0}
+            { stat = 0, value = 32 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -79752,9 +79756,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -79792,7 +79796,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -80010,8 +80014,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -80049,8 +80053,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -80376,9 +80380,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -80416,7 +80420,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -80490,8 +80494,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -80637,9 +80641,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -80713,8 +80717,8 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -80752,8 +80756,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -80791,7 +80795,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -81081,9 +81085,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -81193,8 +81197,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -81232,8 +81236,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -81271,9 +81275,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 7},
-            {stat = 0, value = 37},
-            {stat = 0, value = 0}
+            { stat = 0, value = 7 },
+            { stat = 0, value = 37 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -81347,7 +81351,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -81385,8 +81389,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 3},
-            {stat = 0, value = 0}
+            { stat = 0, value = 3 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -81496,7 +81500,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -81534,7 +81538,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -81572,7 +81576,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -81646,7 +81650,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -81720,9 +81724,9 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 18},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 18 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -81760,8 +81764,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 6},
-            {stat = 0, value = 0}
+            { stat = 0, value = 6 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -81835,7 +81839,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -81873,7 +81877,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -81911,7 +81915,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -82021,7 +82025,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -82131,7 +82135,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -82143,7 +82147,8 @@ local WeaponsDB = {
         is_tbc = true,
     },
     [24550] = {
-        name = "Gladiator's Greatsword',41561,4,32768,1,0,0,17,-1,-1,123,70,0,0,0,0,0,0,0,0,1,0,7,48,4,32,32,35,35,28,31,20,0,0,0,0,0,0,0,0,0,0,341,513,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3600,0,0,0,1,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,1,'Finely crafted to Proximo's specification.",
+        name =
+        "Gladiator's Greatsword',41561,4,32768,1,0,0,17,-1,-1,123,70,0,0,0,0,0,0,0,0,1,0,7,48,4,32,32,35,35,28,31,20,0,0,0,0,0,0,0,0,0,0,341,513,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3600,0,0,0,1,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,0,0,0,0,-1,0,-1,1,'Finely crafted to Proximo's specification.",
         class = 2,
         subclass = 8,
         subclass_name = "Sword (2H)",
@@ -82274,8 +82279,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -82493,9 +82498,9 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 5},
-            {stat = 0, value = 21},
-            {stat = 0, value = 0}
+            { stat = 0, value = 5 },
+            { stat = 0, value = 21 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -82677,8 +82682,8 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 31},
-            {stat = 0, value = 0}
+            { stat = 0, value = 31 },
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -82752,7 +82757,7 @@ local WeaponsDB = {
         stackable = 0,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -82898,7 +82903,7 @@ local WeaponsDB = {
         stackable = 1,
         container_slots = 1,
         stats = {
-            {stat = 0, value = 0}
+            { stat = 0, value = 0 }
         },
         damage = {},
         armor = 0,
@@ -82985,68 +82990,69 @@ function WeaponsDB:GetRandomWeapon()
             table.insert(weapons, weapon)
         end
     end
-    
+
     if #weapons == 0 then
         return nil
     end
-    
+
     local randomIndex = math.random(1, #weapons)
     return weapons[randomIndex]
 end
 
 function WeaponsDB:GetRandomWeaponByQuality(quality)
     local weapons = self:GetWeaponsByQuality(quality)
-    
+
     if #weapons == 0 then
         return nil
     end
-    
+
     local randomIndex = math.random(1, #weapons)
     return weapons[randomIndex]
 end
 
 function WeaponsDB:GetRandomWeaponBySubclass(subclass)
     local weapons = self:GetWeaponsBySubclass(subclass)
-    
+
     if #weapons == 0 then
         return nil
     end
-    
+
     local randomIndex = math.random(1, #weapons)
     return weapons[randomIndex]
 end
 
 function WeaponsDB:GetRandomTBCWeapon()
     local weapons = self:GetTBCWeapons()
-    
+
     if #weapons == 0 then
         return nil
     end
-    
+
     local randomIndex = math.random(1, #weapons)
     return weapons[randomIndex]
 end
 
 function WeaponsDB:GetRandomClassicWeapon()
     local weapons = self:GetClassicWeapons()
-    
+
     if #weapons == 0 then
         return nil
     end
-    
+
     local randomIndex = math.random(1, #weapons)
     return weapons[randomIndex]
 end
 
 function WeaponsDB:GetRandomWeaponByLevelRange(minLevel, maxLevel)
     local weapons = self:GetWeaponsByLevelRange(minLevel, maxLevel)
-    
+
     if #weapons == 0 then
         return nil
     end
-    
+
     local randomIndex = math.random(1, #weapons)
     return weapons[randomIndex]
 end
 
-return WeaponsDB
+-- Make WeaponsDB globally available for WoW addons
+_G.WeaponsDB = WeaponsDB

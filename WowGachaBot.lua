@@ -7,6 +7,8 @@ local addonName = "WowGachaBot"
 -- Database initialization
 WowGachaBotDB = WowGachaBotDB or {}
 
+-- WeaponsDB will be loaded as a global variable
+
 -- Configuration
 local config = {
     enabled = true,
@@ -24,11 +26,27 @@ end
 local function handleOpenCommand()
     debug("Handling !open command")
 
-    -- Send "hello world" message to chat
-    SendChatMessage("Hello World!", "SAY")
+    -- Check if WeaponsDB is loaded
+    if not WeaponsDB then
+        SendChatMessage("WeaponsDB not loaded!", "SAY")
+        print("[" .. addonName .. "] WeaponsDB not loaded!")
+        return
+    end
 
-    -- Also print to chat frame for confirmation
-    print("[" .. addonName .. "] Hello World!")
+    -- Get a random weapon from the database
+    local weapon = WeaponsDB:GetRandomWeapon()
+
+    if weapon and weapon.name then
+        -- Send the weapon name to chat
+        SendChatMessage(weapon.name, "SAY")
+
+        -- Also print to chat frame for confirmation
+        print("[" .. addonName .. "] " .. weapon.name)
+    else
+        -- Fallback if no weapon found
+        SendChatMessage("No weapon found!", "SAY")
+        print("[" .. addonName .. "] No weapon found!")
+    end
 end
 
 -- Event handler for chat messages
@@ -61,7 +79,7 @@ local function InitializeAddon()
     WowGachaBot:SetScript("OnEvent", OnEvent)
 
     -- Print initialization message
-    print("[" .. addonName .. "] Loaded successfully! Type !open in party chat to test.")
+    print("[" .. addonName .. "] Loaded successfully! Type !open in party chat to get a random weapon.")
 end
 
 -- Slash command handler
@@ -83,8 +101,9 @@ SlashCmdList["WOWGACHABOT"] = function(msg)
         print("[" .. addonName .. "] Commands:")
         print("  /wgb toggle - Enable/disable the addon")
         print("  /wgb debug - Toggle debug mode")
-        print("  /wgb test - Test the !open command")
+        print("  /wgb test - Test the !open command (get random weapon)")
         print("  /wgb help - Show this help")
+        print("  !open - Get a random weapon (works in party/say chat)")
     else
         print("[" .. addonName .. "] Unknown command. Type /wgb help for available commands.")
     end

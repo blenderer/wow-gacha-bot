@@ -11,5 +11,6 @@
 ## X-WoWI-ID: 0
 ## X-Wago-ID: 
 
+WeaponsDB.lua
 WowGachaBot.lua
 WowGachaBot.xml
