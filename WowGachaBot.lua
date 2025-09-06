@@ -122,6 +122,3 @@ WowGachaBot:SetScript("OnEvent", function(self, event, ...)
         OnEvent(self, event, ...)
     end
 end)
-
--- Export for external access
-_G.WowGachaBot = WowGachaBot
