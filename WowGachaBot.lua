@@ -37,11 +37,16 @@ local function handleOpenCommand()
     local weapon = WeaponsDB:GetRandomWeapon()
 
     if weapon and weapon.name then
-        -- Send the weapon name to chat
-        SendChatMessage(weapon.name, "SAY")
+        -- Create item link using the item ID
+        local itemLink = "|c" ..
+            (weapon.quality_color or "ff9d9d9d") ..
+            "|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[" .. weapon.name .. "]|h|r"
+
+        -- Send the item link to chat
+        SendChatMessage(itemLink, "SAY")
 
         -- Also print to chat frame for confirmation
-        print("[" .. addonName .. "] " .. weapon.name)
+        print("[" .. addonName .. "] " .. itemLink)
     else
         -- Fallback if no weapon found
         SendChatMessage("No weapon found!", "SAY")

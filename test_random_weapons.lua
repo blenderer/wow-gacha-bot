@@ -35,18 +35,6 @@ local function testRandomWeapons()
         local weapon = WeaponsDB:GetRandomWeapon()
         printWeapon(weapon, i)
     end
-
-    -- print("2. Random Epic Weapons:")
-    -- for i = 1, 3 do
-    --     local weapon = WeaponsDB:GetRandomWeaponByQuality(4) -- Epic quality
-    --     printWeapon(weapon, i)
-    -- end
-
-    -- print("3. Random TBC Weapons:")
-    -- for i = 1, 2 do
-    --     local weapon = WeaponsDB:GetRandomTBCWeapon()
-    --     printWeapon(weapon, i)
-    -- end
 end
 
 -- Run the test

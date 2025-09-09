@@ -2,6 +2,17 @@
 -- Generated from weapons.json (cleaned - empty names removed)
 -- Total weapons: 2218
 
+-- Quality color mapping
+qualityColors = {
+    [0] = "ff9d9d9d", -- Poor (Gray)
+    [1] = "ffffffff", -- Common (White)
+    [2] = "ff1eff00", -- Uncommon (Green)
+    [3] = "ff0070dd", -- Rare (Blue)
+    [4] = "ffa335ee", -- Epic (Purple)
+    [5] = "ffff8000", -- Legendary (Orange)
+    [6] = "ffe6cc80", -- Artifact (Gold)
+}
+
 local WeaponsDB = {
     [8190] = {
         name = "Hanzo Sword",
@@ -82932,7 +82943,14 @@ function WeaponsDB:GetWeaponsByQuality(quality)
     local weapons = {}
     for itemId, weapon in pairs(self) do
         if type(weapon) == "table" and weapon.quality == quality then
-            table.insert(weapons, weapon)
+            -- Add item ID and quality color to weapon data
+            local weaponWithId = {}
+            for k, v in pairs(weapon) do
+                weaponWithId[k] = v
+            end
+            weaponWithId.item_id = itemId
+            weaponWithId.quality_color = qualityColors[weapon.quality] or qualityColors[0]
+            table.insert(weapons, weaponWithId)
         end
     end
     return weapons
@@ -82943,7 +82961,14 @@ function WeaponsDB:GetWeaponsBySubclass(subclass)
     local weapons = {}
     for itemId, weapon in pairs(self) do
         if type(weapon) == "table" and weapon.subclass == subclass then
-            table.insert(weapons, weapon)
+            -- Add item ID and quality color to weapon data
+            local weaponWithId = {}
+            for k, v in pairs(weapon) do
+                weaponWithId[k] = v
+            end
+            weaponWithId.item_id = itemId
+            weaponWithId.quality_color = qualityColors[weapon.quality] or qualityColors[0]
+            table.insert(weapons, weaponWithId)
         end
     end
     return weapons
@@ -82954,7 +82979,14 @@ function WeaponsDB:GetTBCWeapons()
     local weapons = {}
     for itemId, weapon in pairs(self) do
         if type(weapon) == "table" and weapon.is_tbc == true then
-            table.insert(weapons, weapon)
+            -- Add item ID and quality color to weapon data
+            local weaponWithId = {}
+            for k, v in pairs(weapon) do
+                weaponWithId[k] = v
+            end
+            weaponWithId.item_id = itemId
+            weaponWithId.quality_color = qualityColors[weapon.quality] or qualityColors[0]
+            table.insert(weapons, weaponWithId)
         end
     end
     return weapons
@@ -82965,7 +82997,14 @@ function WeaponsDB:GetClassicWeapons()
     local weapons = {}
     for itemId, weapon in pairs(self) do
         if type(weapon) == "table" and weapon.is_tbc == false then
-            table.insert(weapons, weapon)
+            -- Add item ID and quality color to weapon data
+            local weaponWithId = {}
+            for k, v in pairs(weapon) do
+                weaponWithId[k] = v
+            end
+            weaponWithId.item_id = itemId
+            weaponWithId.quality_color = qualityColors[weapon.quality] or qualityColors[0]
+            table.insert(weapons, weaponWithId)
         end
     end
     return weapons
@@ -82976,7 +83015,14 @@ function WeaponsDB:GetWeaponsByLevelRange(minLevel, maxLevel)
     local weapons = {}
     for itemId, weapon in pairs(self) do
         if type(weapon) == "table" and weapon.required_level >= minLevel and weapon.required_level <= maxLevel then
-            table.insert(weapons, weapon)
+            -- Add item ID and quality color to weapon data
+            local weaponWithId = {}
+            for k, v in pairs(weapon) do
+                weaponWithId[k] = v
+            end
+            weaponWithId.item_id = itemId
+            weaponWithId.quality_color = qualityColors[weapon.quality] or qualityColors[0]
+            table.insert(weapons, weaponWithId)
         end
     end
     return weapons
@@ -82987,7 +83033,14 @@ function WeaponsDB:GetRandomWeapon()
     local weapons = {}
     for itemId, weapon in pairs(self) do
         if type(weapon) == "table" then
-            table.insert(weapons, weapon)
+            -- Add item ID and quality color to weapon data
+            local weaponWithId = {}
+            for k, v in pairs(weapon) do
+                weaponWithId[k] = v
+            end
+            weaponWithId.item_id = itemId
+            weaponWithId.quality_color = qualityColors[weapon.quality] or qualityColors[0]
+            table.insert(weapons, weaponWithId)
         end
     end
 
