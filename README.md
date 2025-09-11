@@ -88,6 +88,16 @@ wow-gacha-bot/
 └── README.md             # This file
 ```
 
+### Testing
+
+To test the weapon database functionality locally:
+
+```bash
+lua test_random_weapons.lua
+```
+
+This will display 10 random weapons from the WeaponsDB with their properties including name, type, quality, level, TBC status, and damage values. The test script loads the WeaponsDB.lua file and uses the `GetRandomWeapon()` method to fetch random weapons.
+
 ### Configuration
 
 The addon can be configured through the `.pkgmeta` file:

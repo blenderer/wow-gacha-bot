@@ -2,38 +2,85 @@
 -- Test script to get 10 random weapons from WeaponsDB
 
 -- Load the WeaponsDB module
-local WeaponsDB = require("WeaponsDB")
+dofile("WeaponsDB.lua")
+local WeaponsDB = _G.WeaponsDB
 
--- Function to print weapon info
+-- ANSI color codes for terminal output
+local colors = {
+    reset = "\27[0m",
+    bright = "\27[1m",
+    dim = "\27[2m",
+    red = "\27[31m",
+    green = "\27[32m",
+    yellow = "\27[33m",
+    blue = "\27[34m",
+    magenta = "\27[35m",
+    cyan = "\27[36m",
+    white = "\27[37m",
+    gray = "\27[90m"
+}
+
+-- Function to convert WoW color code to ANSI color
+local function wowColorToAnsi(qualityColor)
+    if not qualityColor then return colors.white end
+
+    -- Convert hex color to ANSI (simplified mapping)
+    local colorMap = {
+        ["ff9d9d9d"] = colors.gray,    -- Poor (Gray)
+        ["ffffffff"] = colors.white,   -- Common (White)
+        ["ff1eff00"] = colors.green,   -- Uncommon (Green)
+        ["ff0070dd"] = colors.blue,    -- Rare (Blue)
+        ["ffa335ee"] = colors.magenta, -- Epic (Purple)
+        ["ffff8000"] = colors.yellow,  -- Legendary (Orange)
+        ["ffe6cc80"] = colors.cyan     -- Artifact (Gold)
+    }
+
+    return colorMap[qualityColor] or colors.white
+end
+
+-- Function to print weapon info with colors
 local function printWeapon(weapon, index)
     if weapon then
-        print(string.format("%d. %s", index, weapon.name))
-        print(string.format("   Type: %s | Quality: %s | Level: %d | TBC: %s",
-            weapon.subclass_name,
-            weapon.quality_name,
-            weapon.required_level,
-            weapon.is_tbc and "Yes" or "No"
+        local qualityColor = wowColorToAnsi(weapon.quality_color)
+        local tbcColor = weapon.is_tbc and colors.cyan or colors.dim
+
+        print(string.format("%s%d. %s%s%s",
+            colors.bright, index, qualityColor, weapon.name, colors.reset))
+
+        print(string.format("   %sType:%s %s | %sQuality:%s %s%s%s | %sLevel:%s %d | %sTBC:%s %s%s%s",
+            colors.dim, colors.reset, weapon.subclass_name,
+            colors.dim, colors.reset, qualityColor, weapon.quality_name, colors.reset,
+            colors.dim, colors.reset, weapon.required_level,
+            colors.dim, colors.reset, tbcColor, weapon.is_tbc and "Yes" or "No", colors.reset
         ))
+
         if weapon.damage and #weapon.damage > 0 then
             local dmg = weapon.damage[1]
-            print(string.format("   Damage: %d-%d", dmg.min, dmg.max))
+            print(string.format("   %sDamage:%s %d-%d",
+                colors.dim, colors.reset, dmg.min, dmg.max))
         end
         print("")
     else
-        print(string.format("%d. No weapon found", index))
+        print(string.format("%s%d. %sNo weapon found%s",
+            colors.bright, index, colors.red, colors.reset))
     end
 end
 
 -- Main test function
 local function testRandomWeapons()
-    print("=== Testing 10 Random Weapons from WeaponsDB ===")
+    print(string.format("%s=== Testing 10 Random Weapons from WeaponsDB ===%s",
+        colors.bright, colors.reset))
     print("")
 
     -- Test basic random weapons
-    -- print("1. Basic Random Weapons:")
     for i = 1, 10 do
         local weapon = WeaponsDB:GetRandomWeapon()
-        printWeapon(weapon, i)
+        if weapon then
+            printWeapon(weapon, i)
+        else
+            print(string.format("%s%d. %sNo weapon found%s",
+                colors.bright, i, colors.red, colors.reset))
+        end
     end
 end
 
