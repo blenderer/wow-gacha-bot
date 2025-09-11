@@ -83028,11 +83028,76 @@ function WeaponsDB:GetWeaponsByLevelRange(minLevel, maxLevel)
     return weapons
 end
 
+-- Gacha probability weights (10% Epic, 30% Rare, 30% Uncommon, 30% Common)
+local gachaWeights = {
+    [4] = 10, -- Epic (Purple) - 10%
+    [3] = 30, -- Rare (Blue) - 30%
+    [2] = 30, -- Uncommon (Green) - 30%
+    [1] = 30  -- Common (White) - 30%
+}
+
+-- Special effect probabilities (applied on top of base rarity)
+local specialEffectWeights = {
+    shiny = 2,   -- 2% chance for shiny
+    rainbow = 5, -- 5% chance for rainbow
+    golden = 10  -- 10% chance for golden
+}
+
+-- High chance mode for testing
+local highChanceWeights = {
+    shiny = 30,   -- 30% chance for shiny
+    rainbow = 30, -- 30% chance for rainbow
+    golden = 30   -- 30% chance for golden
+}
+
+-- Test mode flag
+local testMode = false
+
+-- Function to determine special effects
+local function getSpecialEffect()
+    local weights = testMode and highChanceWeights or specialEffectWeights
+    local totalWeight = 0
+    for effect, weight in pairs(weights) do
+        totalWeight = totalWeight + weight
+    end
+
+    local randomWeight = math.random(1, 100) -- Use 100 as base for easier percentages
+
+    if randomWeight <= weights.shiny then
+        return "shiny"
+    elseif randomWeight <= weights.shiny + weights.rainbow then
+        return "rainbow"
+    elseif randomWeight <= weights.shiny + weights.rainbow + weights.golden then
+        return "golden"
+    else
+        return nil -- No special effect
+    end
+end
+
 -- Random weapon functions
 function WeaponsDB:GetRandomWeapon()
+    -- First, select a quality tier based on gacha weights
+    local totalWeight = 0
+    for quality, weight in pairs(gachaWeights) do
+        totalWeight = totalWeight + weight
+    end
+
+    local randomWeight = math.random(1, totalWeight)
+    local selectedQuality = 1 -- Default to Common
+
+    local currentWeight = 0
+    for quality, weight in pairs(gachaWeights) do
+        currentWeight = currentWeight + weight
+        if randomWeight <= currentWeight then
+            selectedQuality = quality
+            break
+        end
+    end
+
+    -- Now get a random weapon of the selected quality
     local weapons = {}
     for itemId, weapon in pairs(self) do
-        if type(weapon) == "table" then
+        if type(weapon) == "table" and weapon.quality == selectedQuality then
             -- Add item ID and quality color to weapon data
             local weaponWithId = {}
             for k, v in pairs(weapon) do
@@ -83045,11 +83110,31 @@ function WeaponsDB:GetRandomWeapon()
     end
 
     if #weapons == 0 then
+        -- Fallback to any weapon if no weapons of selected quality found
+        for itemId, weapon in pairs(self) do
+            if type(weapon) == "table" then
+                local weaponWithId = {}
+                for k, v in pairs(weapon) do
+                    weaponWithId[k] = v
+                end
+                weaponWithId.item_id = itemId
+                weaponWithId.quality_color = qualityColors[weapon.quality] or qualityColors[0]
+                table.insert(weapons, weaponWithId)
+            end
+        end
+    end
+
+    if #weapons == 0 then
         return nil
     end
 
     local randomIndex = math.random(1, #weapons)
-    return weapons[randomIndex]
+    local selectedWeapon = weapons[randomIndex]
+
+    -- Add special effect
+    selectedWeapon.special_effect = getSpecialEffect()
+
+    return selectedWeapon
 end
 
 function WeaponsDB:GetRandomWeaponByQuality(quality)
@@ -83105,6 +83190,26 @@ function WeaponsDB:GetRandomWeaponByLevelRange(minLevel, maxLevel)
 
     local randomIndex = math.random(1, #weapons)
     return weapons[randomIndex]
+end
+
+-- Test mode control functions
+function WeaponsDB:SetTestMode(enabled)
+    testMode = enabled
+    local mode = enabled and "HIGH CHANCE" or "NORMAL"
+    print("[" .. (addonName or "WeaponsDB") .. "] Special effects mode: " .. mode)
+    if enabled then
+        print("  Shiny: 30% | Rainbow: 30% | Golden: 30% | None: 10%")
+    else
+        print("  Shiny: 2% | Rainbow: 5% | Golden: 10% | None: 83%")
+    end
+end
+
+function WeaponsDB:GetTestMode()
+    return testMode
+end
+
+function WeaponsDB:ToggleTestMode()
+    self:SetTestMode(not testMode)
 end
 
 -- Make WeaponsDB globally available for WoW addons

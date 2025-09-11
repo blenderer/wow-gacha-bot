@@ -24,6 +24,8 @@ A simple World of Warcraft Classic addon that responds to party chat commands.
   - `/wgb toggle` - Enable/disable the addon
   - `/wgb debug` - Toggle debug mode
   - `/wgb test` - Test the !open command
+  - `/wgb testmode` - Toggle high-chance special effects mode (for testing)
+  - `/wgb normal` - Set normal special effects rates
   - `/wgb help` - Show help
 
 ### Supported Game Versions

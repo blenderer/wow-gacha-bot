@@ -22,6 +22,35 @@ local function debug(msg)
     end
 end
 
+-- Function to create rainbow colored text
+local function createRainbowText(text)
+    local rainbowColors = {
+        "ffff0000", -- Red
+        "ffff8000", -- Orange
+        "ffffff00", -- Yellow
+        "ff00ff00", -- Green
+        "ff00ffff", -- Cyan
+        "ff0080ff", -- Blue
+        "ff8000ff", -- Purple
+        "ffff00ff"  -- Magenta
+    }
+
+    local result = ""
+    local colorIndex = 1
+
+    for i = 1, #text do
+        local char = text:sub(i, i)
+        local color = rainbowColors[colorIndex]
+        result = result .. "|c" .. color .. char .. "|r"
+        colorIndex = colorIndex + 1
+        if colorIndex > #rainbowColors then
+            colorIndex = 1
+        end
+    end
+
+    return result
+end
+
 -- Main function to handle the !open command
 local function handleOpenCommand()
     debug("Handling !open command")
@@ -38,9 +67,35 @@ local function handleOpenCommand()
 
     if weapon and weapon.name then
         -- Create item link using the item ID
-        local itemLink = "|c" ..
-            (weapon.quality_color or "ff9d9d9d") ..
-            "|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[" .. weapon.name .. "]|h|r"
+        local itemLink
+        if weapon.special_effect == "rainbow" then
+            -- For rainbow, use a special color that stands out
+            itemLink = "|cffff00ff|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[" .. weapon.name .. "]|h|r"
+        elseif weapon.special_effect == "golden" then
+            -- Create golden colored item link
+            itemLink = "|cffffd700|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[" .. weapon.name .. "]|h|r"
+        elseif weapon.special_effect == "shiny" then
+            -- Create shiny colored item link
+            itemLink = "|cffffffff|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[" .. weapon.name .. "]|h|r"
+        else
+            -- Use normal quality color
+            itemLink = "|c" ..
+                (weapon.quality_color or "ff9d9d9d") ..
+                "|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[" .. weapon.name .. "]|h|r"
+        end
+
+        -- Add special effect formatting with colors and text
+        if weapon.special_effect == "rainbow" then
+            -- Rainbow: red color with (RAINBOW) suffix
+            itemLink = "|cffff0000|Hitem:" ..
+                weapon.item_id .. ":0:0:0:0:0:0:0|h[" .. weapon.name .. "]|h|r (RAINBOW)"
+        elseif weapon.special_effect == "shiny" then
+            -- Shiny: lighter blue color with (SHINY) suffix
+            itemLink = "|cff87ceeb|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[" .. weapon.name .. "]|h|r (SHINY)"
+        elseif weapon.special_effect == "golden" then
+            -- Golden: gold color with (GOLDEN) suffix
+            itemLink = "|cffffd700|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[" .. weapon.name .. "]|h|r (GOLDEN)"
+        end
 
         -- Send the item link to chat
         SendChatMessage(itemLink, "SAY")
@@ -102,11 +157,25 @@ SlashCmdList["WOWGACHABOT"] = function(msg)
         print("[" .. addonName .. "] Debug mode " .. (config.debug and "enabled" or "disabled"))
     elseif command == "test" then
         handleOpenCommand()
+    elseif command == "testmode" or command == "highchance" then
+        if WeaponsDB then
+            WeaponsDB:ToggleTestMode()
+        else
+            print("[" .. addonName .. "] WeaponsDB not loaded!")
+        end
+    elseif command == "normal" then
+        if WeaponsDB then
+            WeaponsDB:SetTestMode(false)
+        else
+            print("[" .. addonName .. "] WeaponsDB not loaded!")
+        end
     elseif command == "help" or command == "" then
         print("[" .. addonName .. "] Commands:")
         print("  /wgb toggle - Enable/disable the addon")
         print("  /wgb debug - Toggle debug mode")
         print("  /wgb test - Test the !open command (get random weapon)")
+        print("  /wgb testmode - Toggle high-chance special effects mode")
+        print("  /wgb normal - Set normal special effects rates")
         print("  /wgb help - Show this help")
         print("  !open - Get a random weapon (works in party/say chat)")
     else
