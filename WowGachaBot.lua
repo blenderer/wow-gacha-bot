@@ -59,9 +59,6 @@ end
 
 -- Inventory management functions
 local function getPlayerInventory(playerName)
-    debug("Getting inventory for player: " .. tostring(playerName))
-    debug("WowGachaBotDB.inventories exists: " .. tostring(WowGachaBotDB.inventories ~= nil))
-
     if not WowGachaBotDB.inventories[playerName] then
         debug("Creating new inventory for player: " .. tostring(playerName))
         WowGachaBotDB.inventories[playerName] = {
@@ -107,6 +104,7 @@ local function getPlayerName()
     return UnitName("player")
 end
 
+
 -- Inventory UI
 local inventoryFrame = nil
 
@@ -129,7 +127,7 @@ local function createInventoryWindow()
 
     -- Title
     local title = inventoryFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
-    title:SetPoint("TOP", 0, -10)
+    title:SetPoint("TOP", 0, -5)
     title:SetText("Gacha Inventory")
 
     -- Scroll frame
@@ -156,6 +154,7 @@ local function showInventoryWindow(playerName)
 
     -- Clear existing content
     local content = frame.content
+    debug("Clearing " .. content:GetNumChildren() .. " existing children")
     for i = 1, content:GetNumChildren() do
         local child = select(i, content:GetChildren())
         if child then
@@ -163,28 +162,37 @@ local function showInventoryWindow(playerName)
             child:SetParent(nil)
         end
     end
+    debug("After clearing, content has " .. content:GetNumChildren() .. " children")
 
     -- Update title
     frame.title:SetText("Gacha Inventory - " .. playerName .. " (" .. #inventory.items .. " items)")
 
+    debug("Number of items in inventory: " .. #inventory.items)
+
     -- Add items
     local yOffset = 0
+    debug("Processing " .. #inventory.items .. " items for display")
     for i, itemData in ipairs(inventory.items) do
         local weapon = itemData.weapon
+        debug("Processing item " .. i .. ": " .. weapon.name)
 
         -- Create item frame
         local itemFrame = CreateFrame("Frame", nil, content)
         itemFrame:SetSize(350, 20)
         itemFrame:SetPoint("TOPLEFT", 0, -yOffset)
 
+        -- Store weapon data for button callbacks
+        itemFrame.weapon = weapon
+        itemFrame.itemId = weapon.item_id
+
         -- Item link
         local itemLink
         if weapon.special_effect == "rainbow" then
-            itemLink = "|cffff0000|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[" .. weapon.name .. "]|h|r (RAINBOW)"
+            itemLink = "|cffff69b4|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[Rainbow " .. weapon.name .. "]|h|r"
         elseif weapon.special_effect == "shiny" then
-            itemLink = "|cff87ceeb|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[" .. weapon.name .. "]|h|r (SHINY)"
+            itemLink = "|cff87ceeb|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[Shiny " .. weapon.name .. "]|h|r"
         elseif weapon.special_effect == "golden" then
-            itemLink = "|cffffd700|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[" .. weapon.name .. "]|h|r (GOLDEN)"
+            itemLink = "|cffffd700|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[Golden " .. weapon.name .. "]|h|r"
         else
             itemLink = "|c" ..
                 (weapon.quality_color or "ff9d9d9d") ..
@@ -202,6 +210,56 @@ local function showInventoryWindow(playerName)
         timeText:SetPoint("RIGHT", -5, 0)
         timeText:SetText(date("%H:%M", itemData.timestamp))
         timeText:SetTextColor(0.7, 0.7, 0.7)
+
+
+        -- Add tooltip functionality
+        itemFrame:SetScript("OnEnter", function(self)
+            GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+            GameTooltip:SetHyperlink(itemLink)
+
+            -- Add custom gacha information
+            GameTooltip:AddLine(" ") -- Empty line for spacing
+            GameTooltip:AddLine("|cffffd700Gacha Information|r", 1, 1, 1)
+
+            -- Special effect information
+            if weapon.special_effect == "rainbow" then
+                GameTooltip:AddLine("|cffff69b4Rainbow Variant|r", 1, 0.41, 0.71)
+            elseif weapon.special_effect == "golden" then
+                GameTooltip:AddLine("|cffffd700Golden Variant|r", 1, 0.84, 0)
+            elseif weapon.special_effect == "shiny" then
+                GameTooltip:AddLine("|cff87ceebShiny Variant|r", 0.53, 0.81, 0.92)
+            else
+                GameTooltip:AddLine("|cff9d9d9dStandard Variant|r", 0.62, 0.62, 0.62)
+            end
+
+            -- Additional weapon information
+            GameTooltip:AddLine(" ") -- Empty line for spacing
+            GameTooltip:AddLine("|cffffd700Weapon Details|r", 1, 1, 1)
+            GameTooltip:AddLine("Type: |cffffffff" .. (weapon.subclass_name or "Unknown") .. "|r", 1, 1, 1)
+            GameTooltip:AddLine(
+                "Quality: |c" .. (weapon.quality_color or "ff9d9d9d") .. (weapon.quality_name or "Unknown") .. "|r", 1, 1,
+                1)
+            if weapon.required_level and weapon.required_level > 0 then
+                GameTooltip:AddLine("Required Level: |cffffffff" .. weapon.required_level .. "|r", 1, 1, 1)
+            end
+            if weapon.is_tbc then
+                GameTooltip:AddLine("|cff00ff00Burning Crusade Content|r", 0, 1, 0)
+            end
+
+            -- Timestamp information
+            GameTooltip:AddLine(" ") -- Empty line for spacing
+            GameTooltip:AddLine("|cffffd700Obtained|r", 1, 1, 1)
+            GameTooltip:AddLine("Time: |cffffffff" .. date("%Y-%m-%d %H:%M:%S", itemData.timestamp) .. "|r", 1, 1, 1)
+
+            GameTooltip:Show()
+        end)
+
+        itemFrame:SetScript("OnLeave", function(self)
+            GameTooltip:Hide()
+        end)
+
+        -- Make the frame respond to mouse events
+        itemFrame:EnableMouse(true)
 
         yOffset = yOffset + 20
     end
@@ -258,21 +316,57 @@ local function handleOpenCommand()
         return
     end
 
-    -- Get a random weapon from the database
-    local weapon = WeaponsDB:GetRandomWeapon()
+    -- Get a random weapon from the database (Classic only)
+    local weapon = WeaponsDB:GetRandomClassicWeapon()
+
+    -- Apply special effects (test mode support)
+    if weapon then
+        -- Apply special effects using the same logic as GetRandomWeapon
+        -- We need to access the internal special effect logic
+        local testMode = WeaponsDB:GetTestMode()
+        local specialEffect = nil
+
+        if testMode then
+            -- High chance mode: 30% each for shiny, rainbow, golden, 10% none
+            local rand = math.random(1, 100)
+            if rand <= 30 then
+                specialEffect = "shiny"
+            elseif rand <= 60 then
+                specialEffect = "rainbow"
+            elseif rand <= 90 then
+                specialEffect = "golden"
+            else
+                specialEffect = nil
+            end
+        else
+            -- Normal mode: 2% shiny, 5% rainbow, 10% golden, 83% none
+            local rand = math.random(1, 100)
+            if rand <= 2 then
+                specialEffect = "shiny"
+            elseif rand <= 7 then
+                specialEffect = "rainbow"
+            elseif rand <= 17 then
+                specialEffect = "golden"
+            else
+                specialEffect = nil
+            end
+        end
+
+        weapon.special_effect = specialEffect
+    end
 
     if weapon and weapon.name then
         -- Create item link using the item ID
         local itemLink
         if weapon.special_effect == "rainbow" then
             -- For rainbow, use a special color that stands out
-            itemLink = "|cffff00ff|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[" .. weapon.name .. "]|h|r"
+            itemLink = "|cffff00ff|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[Rainbow " .. weapon.name .. "]|h|r"
         elseif weapon.special_effect == "golden" then
             -- Create golden colored item link
-            itemLink = "|cffffd700|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[" .. weapon.name .. "]|h|r"
+            itemLink = "|cffffd700|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[Golden " .. weapon.name .. "]|h|r"
         elseif weapon.special_effect == "shiny" then
             -- Create shiny colored item link
-            itemLink = "|cffffffff|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[" .. weapon.name .. "]|h|r"
+            itemLink = "|cffffffff|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[Shiny " .. weapon.name .. "]|h|r"
         else
             -- Use normal quality color
             itemLink = "|c" ..
@@ -282,15 +376,15 @@ local function handleOpenCommand()
 
         -- Add special effect formatting with colors and text
         if weapon.special_effect == "rainbow" then
-            -- Rainbow: red color with (RAINBOW) suffix
-            itemLink = "|cffff0000|Hitem:" ..
-                weapon.item_id .. ":0:0:0:0:0:0:0|h[" .. weapon.name .. "]|h|r (RAINBOW)"
+            -- Rainbow: pink color with Rainbow prefix
+            itemLink = "|cffff69b4|Hitem:" ..
+                weapon.item_id .. ":0:0:0:0:0:0:0|h[Rainbow " .. weapon.name .. "]|h|r"
         elseif weapon.special_effect == "shiny" then
-            -- Shiny: lighter blue color with (SHINY) suffix
-            itemLink = "|cff87ceeb|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[" .. weapon.name .. "]|h|r (SHINY)"
+            -- Shiny: lighter blue color with Shiny prefix
+            itemLink = "|cff87ceeb|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[Shiny " .. weapon.name .. "]|h|r"
         elseif weapon.special_effect == "golden" then
-            -- Golden: gold color with (GOLDEN) suffix
-            itemLink = "|cffffd700|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[" .. weapon.name .. "]|h|r (GOLDEN)"
+            -- Golden: gold color with Golden prefix
+            itemLink = "|cffffd700|Hitem:" .. weapon.item_id .. ":0:0:0:0:0:0:0|h[Golden " .. weapon.name .. "]|h|r"
         end
 
         -- Add weapon to player's inventory
@@ -389,6 +483,9 @@ SlashCmdList["WOWGACHABOT"] = function(msg)
             lastOpen = time()
         }
         print("[" .. addonName .. "] Cleared " .. playerName .. "'s inventory")
+    elseif command == "clearall" then
+        WowGachaBotDB.inventories = {}
+        print("[" .. addonName .. "] Cleared all player inventories")
     elseif command == "stats" then
         local playerName = getPlayerName()
         local inventory = getPlayerInventory(playerName)
@@ -429,6 +526,7 @@ SlashCmdList["WOWGACHABOT"] = function(msg)
         print("  /wgb normal - Set normal special effects rates")
         print("  /wgb inventory - Show your gacha inventory")
         print("  /wgb clear - Clear your inventory")
+        print("  /wgb clearall - Clear all player inventories")
         print("  /wgb stats - Show your gacha statistics")
         print("  /wgb autoshow - Toggle auto-show inventory on open")
         print("  /wgb dbinfo - Show database debug information")
